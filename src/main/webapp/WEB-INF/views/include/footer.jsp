@@ -1,0 +1,1 @@
+&copy;[2018-2019] copyrights by <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=wm">Rashid Pvt Technology..</a>

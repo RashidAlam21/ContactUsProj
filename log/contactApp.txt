@@ -1,0 +1,3 @@
+2018-08-03 01:42:19 INFO [main] UserDAOImpl:107 - User Details by UserId Operation:: User [userId=1001, name=Mehtab, phone=9902932812, email=mehtab12@gmail.com, address=null, loginName=mehtab, password=null, role=2, loginStatus=1]
+2018-08-03 02:51:47 INFO [main] UserDAOImpl:47 - Result Save Operation:: 1
+2018-08-03 02:52:41 INFO [main] UserDAOImpl:47 - Result Save Operation:: 1
