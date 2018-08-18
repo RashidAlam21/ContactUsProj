@@ -139,6 +139,7 @@ public class UserController {
 	@RequestMapping(value="/check_user_avail")
 	@ResponseBody
 	public String checkUserAvailability(@RequestParam String username) {
+		System.out.println("username "+username);
 		if(userService.isUserNameExist(username))
 			return "This username is already exist, Plz ! choose another name";
 		else

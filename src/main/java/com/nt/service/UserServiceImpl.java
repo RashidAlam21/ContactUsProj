@@ -102,9 +102,11 @@ public class UserServiceImpl extends BaseDAO implements UserService {
 	 */
 	@Override
 	public Boolean isUserNameExist(String username) {
-		String sql="SELECT COUNT(loginanme) FROM user WHERE username=?";
+		System.out.println("username service "+username);
+		String sql="SELECT COUNT(loginname) FROM user WHERE loginname=?";
 		Integer count=getJdbcTemplate().queryForObject(sql, new String[] {username},Integer.class);
-		if(count.equals(sql)) {
+		System.out.println("count "+count);
+		if(count==1) {
 			return true;
 		}else {
 			return false;

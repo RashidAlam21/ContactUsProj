@@ -19,10 +19,12 @@
  <script src="${url_jqlib }"></script>
  <script type="text/javascript">
   $(document).ready(function(){
+	 // alert("Welcome to userid");
 	 $("#id_check_avail").click(function(){
+		 alert("welcome to click username buton")
 		$.ajax({
 			url : 'check_user_avail',
-			data : {username : $("#id_username")},
+			data : {username : $("#id_username").val()},
 			success : function(data){
 				$("#id_res_div").html(data);
 			}
