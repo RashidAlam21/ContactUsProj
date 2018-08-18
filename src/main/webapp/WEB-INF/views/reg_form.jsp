@@ -55,7 +55,7 @@
       <p class="error">${err} </p>
      </c:if>
 <%--       <c:if test="${param.act eq 'lo'}"> --%>
-<!--       <p class="success">Logout Successfully! Thanks for using conatact application.</p>  -->
+<!--       <p class="success">Logout Successfully!!! Thanks for using conatact application.</p>  -->
 <%--      </c:if> --%>
      <s:url var="reg_url" value="/registration"/>
      <f:form action="${reg_url}" modelAttribute="command">
